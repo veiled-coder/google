@@ -1,0 +1,28 @@
+.navigation {
+  align-self:end;
+  display: flex;
+  align-items: center;
+  
+ 
+}
+.grip-icon{
+    color: #5F6368;
+   padding: .5rem;
+}
+.grip-icon:hover{
+    background-color: #EFF0F0;
+    border-radius: 50%;
+}
+.profile-image{
+    width: 2rem;
+    height: 2rem;
+    /* padding-top: 2rem; */
+    border-radius: 50%;
+    background-image: url(../images/alphaasecnding2.png) ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.gmail,.img,.grip-icon{
+    margin-right: 1rem;
+}
