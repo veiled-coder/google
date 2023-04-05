@@ -3,6 +3,7 @@
   flex-direction: column;
   align-items: center;
   width: 50%;
+  padding: 0rem 1rem;
 }
 .search-input-wrapper {
   width: 100%;
@@ -55,9 +56,15 @@
   color: #202e3e;
 }
 .SearchLanguage {
+  margin-top: 1rem;
   width: 70%;
   display: flex;
   justify-content: space-between;
+}
+.languages {
+  display: flex;
+  justify-content: space-between;
+  width: 65%;
 }
 .lang a {
   color: #2132cd;
@@ -70,7 +77,7 @@
   .search-options {
     width: 70%;
   }
-  .SearchLanguage{
+  .SearchLanguage {
     width: 90%;
   }
 }
@@ -88,8 +95,6 @@
   .search-option a {
     font-size: 0.9rem;
   }
-  
- 
 }
 @media (max-width: 625px) {
   .search-option a {
@@ -101,10 +106,14 @@
     width: 80%;
   }
   .SearchLanguage {
-    width: 100%;
-    font-size: .7rem;
+    flex-direction: column;
+    align-items: center;
   }
-   .lang a{
-    font-size: .6rem;
+  .languages{
+    width: 100%;
+    margin-top: .5rem;
+  }
+  .lang a{
+    font-size: .8rem;
   }
 }
